@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>TodoApp</title>
+</head>
+<body>
+    <header>
+        <i class="fas fa-adjust fa-2x" style="margin-left: 1rem;cursor: pointer;" title="dark/light" id="lighting"></i>
+        <h1>To do App</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <div class="fields">
+                    <label for="task">Enter a task</label>
+                        <input type="text" maxlength="100" id="task" required>
+                </div>
+                <div class="fields">
+                    <label for="date">Pick a date</label>
+                        <input type="date" id="date">
+                    <input type="submit" value="submit" id="submit">
+                </div>
+            </form>
+        </section>
+
+        <section id="items">
+            <h2 id="previous" style="display: none; text-decoration: underline;">Previous Tasks</h2>
+            <ol>
+            </ol>
+        </section>
+    
+    </main>
+    <footer>
+        copyright © Alex
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>

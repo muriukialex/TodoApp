@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+form {
+  border: 2px solid #eee;
+  margin: 2rem;
+  padding: 1rem;
+  display: grid;
+  justify-content: center;
+}
+label {
+  font-size: 1.4em;
+  display: block;
+}
+input {
+  width: 30rem;
+}
+form > #task,
+#date {
+  display: block;
+}
+#task {
+  height: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.3em;
+  padding: 1rem;
+}
+#date {
+  font-size: 1.3em;
+}
+#submit {
+  height: 3.2rem;
+  background-color: black;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 1.4em;
+  border: none;
+  border-radius: 2rem;
+}
+#submit:hover {
+  color: #eee;
+  background-color: rgb(24, 23, 23);
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 45%;
+}
+.dark-mode {
+  background-color: rgb(22, 22, 22);
+  color: white;
+  border: none;
+}
+
+#items {
+  margin-left: 10rem;
+}
+#items > ol {
+  list-style: none;
+}
+#items > ol > div > :nth-child(1) {
+  font-size: 2em;
+  text-transform: capitalize;
+}
