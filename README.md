@@ -14,7 +14,7 @@ To do items setter implemented using JavaScript, HTML &amp; CSS
   
 ## How to use the task setting application
  - Open a new tab in the browser
- - Navigate to the [site](https://alexset-todo.netlify.app)
+ - Navigate to the [site](https://alexset-todos.netlify.app/)
  - Set an item to do by filling in the input fields & submit
  
  ## Technogies used
