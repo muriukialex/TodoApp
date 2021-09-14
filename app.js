@@ -33,9 +33,10 @@ submitBtn.addEventListener('click',(e)=>{
         taskHolder.appendChild(containerDiv);
 
         const createdEntry = createTask(taskText.value, taskDate.value);
-        taskObj.push(createdEntry);
 
+        taskObj.push(createdEntry);
         localStorage.setItem('taskEntry', JSON.stringify(taskObj));
+
 
         taskText.value = '';
         taskDate.value = '';
