@@ -84,7 +84,7 @@ footer {
     margin-left: 4rem;
   }
   #items > ol > div > :nth-child(1) {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 }
 @media screen and (max-width: 350px) {
