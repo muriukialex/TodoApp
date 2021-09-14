@@ -47,14 +47,13 @@ submitBtn.addEventListener('click',(e)=>{
 
 
 document.addEventListener('DOMContentLoaded',()=>{
-    console.log(JSON.parse(localStorage.getItem('taskEntry')));
     const items = JSON.parse(localStorage.getItem('taskEntry'));
-    if(items.length > 0){
+    if(items !== null){
         document.querySelector('#previous').style.display = 'block';
 
         items.forEach(item=>{
-            console.log(item.task);
-            console.log(item.date);
+            // console.log(item.task);
+            // console.log(item.date);
     
             const containerDiv = document.createElement('div');
     
